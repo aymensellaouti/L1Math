@@ -1,0 +1,24 @@
+{
+  "name": "l1math",
+  "version": "1.0.0",
+  "description": "ceci est le prmier projet des L1Math outils informatique",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymensellaouti/L1Math.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aymensellaouti/L1Math/issues"
+  },
+  "homepage": "https://github.com/aymensellaouti/L1Math#readme"
+}

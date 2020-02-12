@@ -1,0 +1,26 @@
+p {
+    color: red;
+    background-color: yellow;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 12px;
+}
+p a {
+    font-size: 50px;
+}
+
+div {
+    border: 2px red solid;
+    background-color: green;
+}
+
+span {
+    border: black 1px solid;
+}
+
+a:hover {
+    font-size: 200%;
+    color: gold;
+}
