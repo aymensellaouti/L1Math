@@ -61,13 +61,10 @@ var Personnage = {
                 i++;
                 }, 2000
         );
-
     },
     etatIteration() {
-
     }
 };
-
 function combat(personnage1, personnage2) {
         i = 1;
         console.log('Début Combat');
