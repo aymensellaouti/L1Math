@@ -39,3 +39,21 @@ p.addEventListener(
         p.style.color = 'red'
     }
 );
+function getRandomColor() {
+    return '#'+Math.floor(Math.random()*16777215).toString(16);
+}
+const div = document.querySelector('div');
+i = 0;
+
+div.addEventListener('click', function () {
+    div.classList.toggle('ouvert');
+    div.classList.toggle('ferme');
+    // if(!(i % 2)) {
+    //     div.style.backgroundColor = 'black';
+    // } else {
+    //     div.style.backgroundColor = 'red';
+    // }
+    // i++;
+});
+
+
