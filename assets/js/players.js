@@ -23,3 +23,19 @@ indice = setInterval(
         if (!li) {clearInterval(indice);}
     },1500
 );
+
+p = document.querySelector('p');
+p.addEventListener(
+    'mouseover',
+    function(e) {
+         p.style.fontSize = '150%';
+         p.style.color = 'gold'
+    }
+    );
+p.addEventListener(
+    'mouseout',
+    function(e) {
+        p.style.fontSize = '100%';
+        p.style.color = 'red'
+    }
+);
